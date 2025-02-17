@@ -1,5 +1,5 @@
 body{
-background-image: url(dro.jpg); 
+background-image: url(dondogg.jpg); 
     /* background-color:#0095F6 ;  */
     /* background-size: cover  es para que la imagen ocupe el tamaño de la pantalla */
   
@@ -20,8 +20,8 @@ background-image: url(dro.jpg);
     justify-content: center;
 }
 .imagen{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 }
 
 th, td{
@@ -29,15 +29,57 @@ th, td{
     border-collapse: collapse;
     border-radius: 3px;
     padding: 10px;
+    
+}
+
+th{
+    height: 50px;
+}
+
+td{
+    height: 25px;
 }
 
 table{
     border-collapse: collapse;
     border-radius: 3px;
     background-color: white;
+    width: 500px;
+    
 }
 h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #F6E502;
+    text-shadow: 3px 3px 5px black;
 }
+
+.word{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background-color: rgb(50, 50, 59,0.5);
+}
+
+
+.ver-foto {
+    transition-duration: 0.4s;
+    background-color: #F6E502; 
+    color: black; 
+    border: none;
+    border-radius: 9px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    padding: 8px 20px;
+    width: 130px;
+    
+}
+
+
+.ver-foto:hover {
+    background-color: #e64a19; 
+    color: black;
+}
+  
